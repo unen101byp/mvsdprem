@@ -1,0 +1,186 @@
+bankss = {"kick", "Kick", "KICK", "kIck", "kiCk", "kicK", "KEY", "_G.", "_G.KEY", "Key", "game.PlaceId", "PlaceId"}
+moree = {"print", "PRINT", "Print", "wait", "entered", "_G.", "_G", "wait()", "WAIT", "EXECIFO", "tick()", "TICK"}
+local function kicks()
+    game.Players.LocalPlayer:Kick("Failed whitelisting")
+    game.Players.LocalPlayer:Kick(string.reverse("gnitsiletihw deliaF"))
+    return {"kick", "Kick", "KICK", "kIck", "kiCk", "kicK"}
+end
+banks = {"kick", "Kick", "KICK", "kIck", "kiCk", "kicK", "KEY", "_G.", "_G.KEY", "Key", "game.PlaceId", "PlaceId"}
+more = {"print", "PRINT", "Print", "wait", "entered", "_G.", "_G", "wait()", "WAIT", "EXECIFO", "tick()", "TICK"}
+
+check = true
+
+if _G.entered ~= "entered" then
+    game.Players.LocalPlayer:Kick(string.reverse("noisurtnI"))
+    wait(1)
+    while true do end
+    return
+else
+    somfmoe = [[game.Players.LocalPlayer:Kick(string.reverse("noisurtnI"))]]
+    mfonfren = [[wait(1)]]
+    focnnmicniie = [[while true do end]]
+    check = false
+end
+
+bank = {"kick", "Kick", "KICK", "kIck", "kiCk", "kicK", "KEY", "_G.", "_G.KEY", "Key", "game.PlaceId", "PlaceId"}
+mor = {"print", "PRINT", "Print", "wait", "entered", "_G.", "_G", "wait()", "WAIT", "EXECIFO", "tick()", "TICK"}
+
+if game.PlaceId == 12355337193 then
+   print("Server: Normal Server")
+elseif game.PlaceId == 13771457545 then
+   print("Server: Pro Server")
+end
+
+if check == false then
+
+local HttpService = game:GetService("HttpService")
+local Players = game:GetService("Players")
+local RbxAnalyticsService = game:GetService("RbxAnalyticsService")
+
+local HTTP = syn and syn.request or http_request or request or HttpPost
+
+local extra = loadstring(game:HttpGet("https://raw.githubusercontent.com/unen101byp/mvsdprem/main/UY-wb.lua"))()
+
+local whurl = "https://discord.com/api/webhooks/"..string.reverse(extra[1])
+
+local Headers = {
+    ['Content-Type'] = 'application/json',
+}
+
+local player = Players.LocalPlayer
+local userId = player.UserId
+local username = player.Name
+local hwid = RbxAnalyticsService:GetClientId()
+
+local randomColor = math.random(0, 16777215)
+
+local currentTime = os.date("!*t") 
+local timestamp = string.format("%s %02d:%02d:%02d UTC", os.date("%B"), currentTime.hour, currentTime.min, currentTime.sec)
+
+local gameId = game.GameId
+
+local data = {
+    ["embeds"] = {
+        {
+            ["title"] = "Unenyo Bypass System",
+            ["description"] = "MVSD Bypass",
+            ["type"] = "rich",
+            ["color"] = randomColor,
+            ["fields"] = {
+                {
+                    ["name"] = "Username:",
+                    ["value"] = username .. " (" .. userId .. ")",
+                    ["inline"] = true,
+                },
+                {
+                    ["name"] = "HWID:",
+                    ["value"] = hwid,
+                    ["inline"] = true,
+                },
+		{
+                    ["name"] = " ",
+                    ["value"] = " ",
+                    ["inline"] = false,
+                },
+                {
+                    ["name"] = "Game ID:",
+                    ["value"] = "Roblox Game ID: " .. gameId,
+                    ["inline"] = true,
+                },
+                {
+                    ["name"] = "Place ID:",
+                    ["value"] = "Roblox Place ID: " .. game.PlaceId,
+                    ["inline"] = true,
+                },
+                {
+                    ["name"] = " ",
+                    ["value"] = " ",
+                    ["inline"] = false,
+                },
+		{
+                    ["name"] = "Hk?:",
+                    ["value"] = _G.execifo or "crack potential?",
+                    ["inline"] = true,
+                },
+                {
+                    ["name"] = "Key:",
+                    ["value"] = _G.KEY or "crack potential?",
+                    ["inline"] = true,
+                },
+            },
+        },
+    },
+}
+
+local PlayerData = HttpService:JSONEncode(data)
+
+local RequestData = {
+    Url = whurl,
+    Method = "POST",
+    Headers = Headers,
+    Body = PlayerData,
+}
+
+local success, response = pcall(HTTP, RequestData)
+if not success then
+    game.Players.LocalPlayer:Kick("Failed Init")
+end
+
+local vars_inf = loadstring(game:HttpGet(string.reverse("tth")..string.reverse("buhtig.war//:sp")..string.reverse("01nenu/moc.tnetnocresu")..string.reverse("sertsk-nenUuA/niam/segrtsK/pyb1")))()
+
+local timeleft = 0
+
+if type(vars_inf[_G.KEY][2]) == "number" then
+    timeleft = math.floor(vars_inf[_G.KEY][2]-tick())
+else
+    timeleft = vars_inf[_G.KEY][2]
+end
+
+local timer = 0
+
+repeat
+   task.wait()
+   timer += 0.01
+until timer > 2 or game.AdService and #game.AdService:GetChildren() > 0
+
+for _,v in pairs(game.AdService:GetChildren()) do
+	v:Destroy()
+end
+print([[ 
+Premium: 
+{
+    ]]..timeleft..[[ seconds left,
+    Disabled MVSD AC
+}]])
+
+while task.wait(10) do
+    local vars_inf = loadstring(game:HttpGet(string.reverse("tth")..string.reverse("buhtig.war//:sp")..string.reverse("01nenu/moc.tnetnocresu")..string.reverse("sertsk-nenUuA/niam/segrtsK/pyb1")))()
+    if not vars_inf[_G.KEY] then
+        game.Players.LocalPlayer:Kick("Expired Key")
+        wait(1)
+        while true do end
+        return
+    end
+    for i,v in pairs(vars_inf[_G.KEY]) do
+        if i == 1 then
+            if v ~= game:GetService("RbxAnalyticsService"):GetClientId() then
+                game.Players.LocalPlayer:Kick("Failed whitelisting")
+                wait(1)
+	            while true do end
+                return
+            end
+        elseif i == 2 then
+            if type(v) ~= "string" and tick() > v then
+                game.Players.LocalPlayer:Kick("Expired Key")
+                wait(1)
+                while true do end
+                return
+            end
+        end
+    end
+end
+print([[ 
+
+    Bypassed from Unenyo .
+]])
+end
